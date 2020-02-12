@@ -1,0 +1,57 @@
+[
+  {
+    "date": "2020-02-11",
+    "name": "pm10",
+    "numberOfMeasurements": 10,
+    "minimum": 2.54,
+    "maximum": 262.9,
+    "average": 79.98399999999998,
+    "std": 75.93399999999998,
+    "unit": "ug/m3",
+    "quality": "Very good"
+  },
+  {
+    "date": "2020-02-11",
+    "name": "pm25",
+    "numberOfMeasurements": 10,
+    "minimum": 2.83,
+    "maximum": 199.6,
+    "average": 68.95100000000002,
+    "std": 65.71100000000004,
+    "unit": "ug/m3",
+    "quality": "Very good"
+  },
+  {
+    "date": "2018-12-31",
+    "name": "so2",
+    "numberOfMeasurements": 6,
+    "minimum": 2.38,
+    "maximum": 19.2,
+    "average": 10.221666666666668,
+    "std": 1.8316666666666668,
+    "unit": "ug/m3",
+    "quality": "Very good"
+  },
+  {
+    "date": "2020-02-11",
+    "name": "o3",
+    "numberOfMeasurements": 8,
+    "minimum": 2.5,
+    "maximum": 69.12,
+    "average": 32.175000000000004,
+    "std": 26.074999999999996,
+    "unit": "ug/m3",
+    "quality": "Very good"
+  },
+  {
+    "date": "2020-02-11",
+    "name": "no2",
+    "numberOfMeasurements": 10,
+    "minimum": 8.63,
+    "maximum": 60.6,
+    "average": 32.278,
+    "std": 15.867999999999999,
+    "unit": "ug/m3",
+    "quality": "Very good"
+  }
+]

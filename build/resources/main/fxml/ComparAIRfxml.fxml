@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Text layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ComparAIR" textAlignment="CENTER" wrappingWidth="700.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TableView fx:id="tableResults" layoutX="25.0" layoutY="127.0" prefHeight="156.0" prefWidth="649.0" visible="false" />
+      <BarChart fx:id="chart" layoutX="31.0" layoutY="282.0" legendVisible="false" prefHeight="235.0" prefWidth="636.0" visible="false">
+        <xAxis>
+          <CategoryAxis label="Parameters" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis label="Values" side="LEFT" />
+        </yAxis>
+      </BarChart>
+      <VBox layoutX="51.0" layoutY="54.0" prefHeight="59.0" prefWidth="257.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Enter city:" wrappingWidth="285.47005462646484" />
+            <TextField fx:id="editTextCity" promptText="city" />
+            <Button fx:id="downloadButton" mnemonicParsing="false" onAction="#downloadButtonOnClick" prefHeight="25.0" prefWidth="289.0" text="DOWNLOAD" />
+         </children>
+      </VBox>
+      <VBox layoutX="366.0" layoutY="54.0" prefHeight="59.0" prefWidth="277.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Enter path:" wrappingWidth="285.47005462646484" />
+            <TextField fx:id="editTextPath" promptText="path" />
+            <Button fx:id="loadButton" mnemonicParsing="false" onAction="#loadButtonOnClick" prefHeight="25.0" prefWidth="288.0" text="LOAD" />
+         </children>
+      </VBox>
+      <Button fx:id="saveButton" layoutX="168.0" layoutY="32.0" mnemonicParsing="false" onAction="#saveButtononClick" text="SAVE" />
+   </children>
+</AnchorPane>

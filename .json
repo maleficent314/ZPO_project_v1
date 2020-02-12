@@ -1,0 +1,57 @@
+[
+  {
+    "date": "none",
+    "name": "pm10",
+    "numberOfMeasurements": 0,
+    "minimum": 0.0,
+    "maximum": 0.0,
+    "average": 0.0,
+    "std": 0.0,
+    "unit": "ug/m3",
+    "quality": "none"
+  },
+  {
+    "date": "none",
+    "name": "pm25",
+    "numberOfMeasurements": 0,
+    "minimum": 0.0,
+    "maximum": 0.0,
+    "average": 0.0,
+    "std": 0.0,
+    "unit": "ug/m3",
+    "quality": "none"
+  },
+  {
+    "date": "none",
+    "name": "so2",
+    "numberOfMeasurements": 0,
+    "minimum": 0.0,
+    "maximum": 0.0,
+    "average": 0.0,
+    "std": 0.0,
+    "unit": "ug/m3",
+    "quality": "none"
+  },
+  {
+    "date": "none",
+    "name": "o3",
+    "numberOfMeasurements": 0,
+    "minimum": 0.0,
+    "maximum": 0.0,
+    "average": 0.0,
+    "std": 0.0,
+    "unit": "ug/m3",
+    "quality": "none"
+  },
+  {
+    "date": "none",
+    "name": "no2",
+    "numberOfMeasurements": 0,
+    "minimum": 0.0,
+    "maximum": 0.0,
+    "average": 0.0,
+    "std": 0.0,
+    "unit": "ug/m3",
+    "quality": "none"
+  }
+]
